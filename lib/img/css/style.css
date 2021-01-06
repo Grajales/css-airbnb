@@ -1,3 +1,51 @@
-h1 {
-  color: salmon;
+
+body {
+  background-color: #edefec;
+  text-align: center;
 }
+header { 
+color: #565a5d;
+font-size: 20px;
+grid-area: title; }
+h1 { 
+  color: #565a5d;
+  font-size: 20px ;
+  }
+h2 { 
+    color: #565a5d;
+    font-size: 15px ;
+    }
+
+.box {
+  height: 240px;
+  width: 240px;
+  display: flex;
+  /*justify-content : space-around;
+  box-sizing: border-box;*/
+  }
+/*
+.centered{
+  text-align: center;
+  font-size: 20px;
+} */
+
+/*
+.container {
+  display: grid;
+  grid-template-areas:
+   "title title title"
+} */
+
+
+/*nav { grid-area: navigation; }
+ aside { grid-area: advertisement; }
+main { grid-area: posts; }
+footer { grid-area: footer; }
+
+.container {
+ display: grid;
+ grid-template-areas:
+  "title title title"
+  "navigation navigation navigation"
+}
+*/
